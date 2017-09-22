@@ -6,6 +6,7 @@
 ```
 npm install
 ```
+
 ## Crear fichero de variable .env y colocar adentro las llaves de acceso
 
 ```
@@ -16,6 +17,12 @@ JWT_SECRET=jwtSecret
 ## Iniciar servicio de MongoDB
 ```
 sudo service mongod start
+```
+## Dentro de Angular se encuentra el proyecto de angular donde puede ser modificado
+## Pero esto involucra que debe compilarse nuevamente para que este disponible en la pagina
+
+```
+ng build
 ```
 
 ## Servir la aplicacion
